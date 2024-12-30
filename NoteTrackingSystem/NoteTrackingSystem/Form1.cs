@@ -17,10 +17,37 @@ namespace NoteTrackingSystem
             InitializeComponent();
         }
 
+        NoteDal _noteDal = new NoteDal();
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            NoteDal noteDal = new NoteDal();
-            dgwNotes.DataSource = noteDal.GetAll();
+            DatabaseListing();      
+        }
+
+        private void DatabaseListing()
+        {
+            dgwNotes.DataSource = _noteDal.GetAll();
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+
+            _noteDal.Add(new Note
+            {
+                StudentNameSurname = tbxName1.Text,
+                Mathematics = Convert.ToInt32(tbxMath1.Text),
+                Turkish = Convert.ToInt32(tbxTurk1.Text),
+                PhysicalEducation = Convert.ToInt32(tbxPhysical1.Text),
+                Music = Convert.ToInt32(tbxMusic1.Text)
+            });
+
+            DatabaseListing();
+            MessageBox.Show("Notes added!");
+
+
+
+
+
         }
     }
 }

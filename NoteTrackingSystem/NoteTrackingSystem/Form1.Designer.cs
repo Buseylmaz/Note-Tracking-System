@@ -33,20 +33,6 @@ namespace NoteTrackingSystem
             this.tbxSearch = new System.Windows.Forms.TextBox();
             this.btnRemove = new System.Windows.Forms.Button();
             this.gbxUpdate = new System.Windows.Forms.GroupBox();
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.gbxAdd = new System.Windows.Forms.GroupBox();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.lblName1 = new System.Windows.Forms.Label();
-            this.tbxTurk1 = new System.Windows.Forms.TextBox();
-            this.lblMath1 = new System.Windows.Forms.Label();
-            this.tbxMath1 = new System.Windows.Forms.TextBox();
-            this.lblTurk1 = new System.Windows.Forms.Label();
-            this.tbxName1 = new System.Windows.Forms.TextBox();
-            this.dgwNotes = new System.Windows.Forms.DataGridView();
-            this.tbxMusic1 = new System.Windows.Forms.TextBox();
-            this.lblPhysical1 = new System.Windows.Forms.Label();
-            this.tbxPhysical1 = new System.Windows.Forms.TextBox();
-            this.lblMusic1 = new System.Windows.Forms.Label();
             this.tbxMusic2 = new System.Windows.Forms.TextBox();
             this.lblPhysical2 = new System.Windows.Forms.Label();
             this.tbxPhysical2 = new System.Windows.Forms.TextBox();
@@ -57,6 +43,20 @@ namespace NoteTrackingSystem
             this.tbxMath2 = new System.Windows.Forms.TextBox();
             this.lblTurk2 = new System.Windows.Forms.Label();
             this.tbxName2 = new System.Windows.Forms.TextBox();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.gbxAdd = new System.Windows.Forms.GroupBox();
+            this.tbxMusic1 = new System.Windows.Forms.TextBox();
+            this.lblPhysical1 = new System.Windows.Forms.Label();
+            this.tbxPhysical1 = new System.Windows.Forms.TextBox();
+            this.lblMusic1 = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.lblName1 = new System.Windows.Forms.Label();
+            this.tbxTurk1 = new System.Windows.Forms.TextBox();
+            this.lblMath1 = new System.Windows.Forms.Label();
+            this.tbxMath1 = new System.Windows.Forms.TextBox();
+            this.lblTurk1 = new System.Windows.Forms.Label();
+            this.tbxName1 = new System.Windows.Forms.TextBox();
+            this.dgwNotes = new System.Windows.Forms.DataGridView();
             this.gbxUpdate.SuspendLayout();
             this.gbxAdd.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgwNotes)).BeginInit();
@@ -107,134 +107,6 @@ namespace NoteTrackingSystem
             this.gbxUpdate.TabIndex = 22;
             this.gbxUpdate.TabStop = false;
             this.gbxUpdate.Text = "Update a Note";
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Location = new System.Drawing.Point(238, 200);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(125, 23);
-            this.btnUpdate.TabIndex = 7;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            // 
-            // gbxAdd
-            // 
-            this.gbxAdd.Controls.Add(this.tbxMusic1);
-            this.gbxAdd.Controls.Add(this.lblPhysical1);
-            this.gbxAdd.Controls.Add(this.tbxPhysical1);
-            this.gbxAdd.Controls.Add(this.lblMusic1);
-            this.gbxAdd.Controls.Add(this.btnAdd);
-            this.gbxAdd.Controls.Add(this.lblName1);
-            this.gbxAdd.Controls.Add(this.tbxTurk1);
-            this.gbxAdd.Controls.Add(this.lblMath1);
-            this.gbxAdd.Controls.Add(this.tbxMath1);
-            this.gbxAdd.Controls.Add(this.lblTurk1);
-            this.gbxAdd.Controls.Add(this.tbxName1);
-            this.gbxAdd.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.gbxAdd.Location = new System.Drawing.Point(12, 238);
-            this.gbxAdd.Name = "gbxAdd";
-            this.gbxAdd.Size = new System.Drawing.Size(533, 249);
-            this.gbxAdd.TabIndex = 21;
-            this.gbxAdd.TabStop = false;
-            this.gbxAdd.Text = "Add a Note";
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(204, 200);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(125, 23);
-            this.btnAdd.TabIndex = 7;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            // 
-            // lblName1
-            // 
-            this.lblName1.AutoSize = true;
-            this.lblName1.Location = new System.Drawing.Point(36, 36);
-            this.lblName1.Name = "lblName1";
-            this.lblName1.Size = new System.Drawing.Size(140, 15);
-            this.lblName1.TabIndex = 1;
-            this.lblName1.Text = "Student Name Surname";
-            // 
-            // tbxTurk1
-            // 
-            this.tbxTurk1.Location = new System.Drawing.Point(191, 96);
-            this.tbxTurk1.Name = "tbxTurk1";
-            this.tbxTurk1.Size = new System.Drawing.Size(157, 21);
-            this.tbxTurk1.TabIndex = 6;
-            // 
-            // lblMath1
-            // 
-            this.lblMath1.AutoSize = true;
-            this.lblMath1.Location = new System.Drawing.Point(36, 68);
-            this.lblMath1.Name = "lblMath1";
-            this.lblMath1.Size = new System.Drawing.Size(77, 15);
-            this.lblMath1.TabIndex = 2;
-            this.lblMath1.Text = "Mathematics";
-            // 
-            // tbxMath1
-            // 
-            this.tbxMath1.Location = new System.Drawing.Point(191, 65);
-            this.tbxMath1.Name = "tbxMath1";
-            this.tbxMath1.Size = new System.Drawing.Size(157, 21);
-            this.tbxMath1.TabIndex = 5;
-            // 
-            // lblTurk1
-            // 
-            this.lblTurk1.AutoSize = true;
-            this.lblTurk1.Location = new System.Drawing.Point(36, 99);
-            this.lblTurk1.Name = "lblTurk1";
-            this.lblTurk1.Size = new System.Drawing.Size(48, 15);
-            this.lblTurk1.TabIndex = 3;
-            this.lblTurk1.Text = "Turkish";
-            // 
-            // tbxName1
-            // 
-            this.tbxName1.Location = new System.Drawing.Point(191, 33);
-            this.tbxName1.Name = "tbxName1";
-            this.tbxName1.Size = new System.Drawing.Size(157, 21);
-            this.tbxName1.TabIndex = 4;
-            // 
-            // dgwNotes
-            // 
-            this.dgwNotes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgwNotes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwNotes.Location = new System.Drawing.Point(12, 64);
-            this.dgwNotes.Name = "dgwNotes";
-            this.dgwNotes.Size = new System.Drawing.Size(1029, 154);
-            this.dgwNotes.TabIndex = 20;
-            // 
-            // tbxMusic1
-            // 
-            this.tbxMusic1.Location = new System.Drawing.Point(191, 161);
-            this.tbxMusic1.Name = "tbxMusic1";
-            this.tbxMusic1.Size = new System.Drawing.Size(157, 21);
-            this.tbxMusic1.TabIndex = 15;
-            // 
-            // lblPhysical1
-            // 
-            this.lblPhysical1.AutoSize = true;
-            this.lblPhysical1.Location = new System.Drawing.Point(36, 133);
-            this.lblPhysical1.Name = "lblPhysical1";
-            this.lblPhysical1.Size = new System.Drawing.Size(111, 15);
-            this.lblPhysical1.TabIndex = 9;
-            this.lblPhysical1.Text = "Physical Education";
-            // 
-            // tbxPhysical1
-            // 
-            this.tbxPhysical1.Location = new System.Drawing.Point(191, 130);
-            this.tbxPhysical1.Name = "tbxPhysical1";
-            this.tbxPhysical1.Size = new System.Drawing.Size(157, 21);
-            this.tbxPhysical1.TabIndex = 13;
-            // 
-            // lblMusic1
-            // 
-            this.lblMusic1.AutoSize = true;
-            this.lblMusic1.Location = new System.Drawing.Point(36, 164);
-            this.lblMusic1.Name = "lblMusic1";
-            this.lblMusic1.Size = new System.Drawing.Size(39, 15);
-            this.lblMusic1.TabIndex = 11;
-            this.lblMusic1.Text = "Music";
             // 
             // tbxMusic2
             // 
@@ -315,6 +187,135 @@ namespace NoteTrackingSystem
             this.tbxName2.Name = "tbxName2";
             this.tbxName2.Size = new System.Drawing.Size(157, 21);
             this.tbxName2.TabIndex = 19;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(238, 200);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(125, 23);
+            this.btnUpdate.TabIndex = 7;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            // 
+            // gbxAdd
+            // 
+            this.gbxAdd.Controls.Add(this.tbxMusic1);
+            this.gbxAdd.Controls.Add(this.lblPhysical1);
+            this.gbxAdd.Controls.Add(this.tbxPhysical1);
+            this.gbxAdd.Controls.Add(this.lblMusic1);
+            this.gbxAdd.Controls.Add(this.btnAdd);
+            this.gbxAdd.Controls.Add(this.lblName1);
+            this.gbxAdd.Controls.Add(this.tbxTurk1);
+            this.gbxAdd.Controls.Add(this.lblMath1);
+            this.gbxAdd.Controls.Add(this.tbxMath1);
+            this.gbxAdd.Controls.Add(this.lblTurk1);
+            this.gbxAdd.Controls.Add(this.tbxName1);
+            this.gbxAdd.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.gbxAdd.Location = new System.Drawing.Point(12, 238);
+            this.gbxAdd.Name = "gbxAdd";
+            this.gbxAdd.Size = new System.Drawing.Size(533, 249);
+            this.gbxAdd.TabIndex = 21;
+            this.gbxAdd.TabStop = false;
+            this.gbxAdd.Text = "Add a Note";
+            // 
+            // tbxMusic1
+            // 
+            this.tbxMusic1.Location = new System.Drawing.Point(191, 161);
+            this.tbxMusic1.Name = "tbxMusic1";
+            this.tbxMusic1.Size = new System.Drawing.Size(157, 21);
+            this.tbxMusic1.TabIndex = 15;
+            // 
+            // lblPhysical1
+            // 
+            this.lblPhysical1.AutoSize = true;
+            this.lblPhysical1.Location = new System.Drawing.Point(36, 133);
+            this.lblPhysical1.Name = "lblPhysical1";
+            this.lblPhysical1.Size = new System.Drawing.Size(111, 15);
+            this.lblPhysical1.TabIndex = 9;
+            this.lblPhysical1.Text = "Physical Education";
+            // 
+            // tbxPhysical1
+            // 
+            this.tbxPhysical1.Location = new System.Drawing.Point(191, 130);
+            this.tbxPhysical1.Name = "tbxPhysical1";
+            this.tbxPhysical1.Size = new System.Drawing.Size(157, 21);
+            this.tbxPhysical1.TabIndex = 13;
+            // 
+            // lblMusic1
+            // 
+            this.lblMusic1.AutoSize = true;
+            this.lblMusic1.Location = new System.Drawing.Point(36, 164);
+            this.lblMusic1.Name = "lblMusic1";
+            this.lblMusic1.Size = new System.Drawing.Size(39, 15);
+            this.lblMusic1.TabIndex = 11;
+            this.lblMusic1.Text = "Music";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(204, 200);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(125, 23);
+            this.btnAdd.TabIndex = 7;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // lblName1
+            // 
+            this.lblName1.AutoSize = true;
+            this.lblName1.Location = new System.Drawing.Point(36, 36);
+            this.lblName1.Name = "lblName1";
+            this.lblName1.Size = new System.Drawing.Size(140, 15);
+            this.lblName1.TabIndex = 1;
+            this.lblName1.Text = "Student Name Surname";
+            // 
+            // tbxTurk1
+            // 
+            this.tbxTurk1.Location = new System.Drawing.Point(191, 96);
+            this.tbxTurk1.Name = "tbxTurk1";
+            this.tbxTurk1.Size = new System.Drawing.Size(157, 21);
+            this.tbxTurk1.TabIndex = 6;
+            // 
+            // lblMath1
+            // 
+            this.lblMath1.AutoSize = true;
+            this.lblMath1.Location = new System.Drawing.Point(36, 68);
+            this.lblMath1.Name = "lblMath1";
+            this.lblMath1.Size = new System.Drawing.Size(77, 15);
+            this.lblMath1.TabIndex = 2;
+            this.lblMath1.Text = "Mathematics";
+            // 
+            // tbxMath1
+            // 
+            this.tbxMath1.Location = new System.Drawing.Point(191, 65);
+            this.tbxMath1.Name = "tbxMath1";
+            this.tbxMath1.Size = new System.Drawing.Size(157, 21);
+            this.tbxMath1.TabIndex = 5;
+            // 
+            // lblTurk1
+            // 
+            this.lblTurk1.AutoSize = true;
+            this.lblTurk1.Location = new System.Drawing.Point(36, 99);
+            this.lblTurk1.Name = "lblTurk1";
+            this.lblTurk1.Size = new System.Drawing.Size(48, 15);
+            this.lblTurk1.TabIndex = 3;
+            this.lblTurk1.Text = "Turkish";
+            // 
+            // tbxName1
+            // 
+            this.tbxName1.Location = new System.Drawing.Point(191, 33);
+            this.tbxName1.Name = "tbxName1";
+            this.tbxName1.Size = new System.Drawing.Size(157, 21);
+            this.tbxName1.TabIndex = 4;
+            // 
+            // dgwNotes
+            // 
+            this.dgwNotes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgwNotes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgwNotes.Location = new System.Drawing.Point(12, 64);
+            this.dgwNotes.Name = "dgwNotes";
+            this.dgwNotes.Size = new System.Drawing.Size(1029, 154);
+            this.dgwNotes.TabIndex = 20;
             // 
             // Form1
             // 
