@@ -29,8 +29,6 @@ namespace NoteTrackingSystem
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblSearch = new System.Windows.Forms.Label();
-            this.tbxSearch = new System.Windows.Forms.TextBox();
             this.btnRemove = new System.Windows.Forms.Button();
             this.gbxUpdate = new System.Windows.Forms.GroupBox();
             this.tbxMusicUpdate = new System.Windows.Forms.TextBox();
@@ -57,39 +55,28 @@ namespace NoteTrackingSystem
             this.lblTurk1 = new System.Windows.Forms.Label();
             this.tbxNameAdd = new System.Windows.Forms.TextBox();
             this.dgwNotes = new System.Windows.Forms.DataGridView();
+            this.lblName = new System.Windows.Forms.Label();
             this.gbxUpdate.SuspendLayout();
             this.gbxAdd.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgwNotes)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblSearch
-            // 
-            this.lblSearch.AutoSize = true;
-            this.lblSearch.Location = new System.Drawing.Point(688, 29);
-            this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(41, 13);
-            this.lblSearch.TabIndex = 18;
-            this.lblSearch.Text = "Search";
-            // 
-            // tbxSearch
-            // 
-            this.tbxSearch.Location = new System.Drawing.Point(738, 26);
-            this.tbxSearch.Name = "tbxSearch";
-            this.tbxSearch.Size = new System.Drawing.Size(303, 20);
-            this.tbxSearch.TabIndex = 19;
-            // 
             // btnRemove
             // 
-            this.btnRemove.Location = new System.Drawing.Point(12, 23);
+            this.btnRemove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnRemove.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnRemove.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btnRemove.Location = new System.Drawing.Point(903, 38);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(176, 23);
+            this.btnRemove.Size = new System.Drawing.Size(140, 25);
             this.btnRemove.TabIndex = 23;
             this.btnRemove.Text = "Remove";
-            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.UseVisualStyleBackColor = false;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // gbxUpdate
             // 
+            this.gbxUpdate.BackColor = System.Drawing.Color.White;
             this.gbxUpdate.Controls.Add(this.tbxMusicUpdate);
             this.gbxUpdate.Controls.Add(this.lblPhysical2);
             this.gbxUpdate.Controls.Add(this.tbxPhysicalUpdate);
@@ -102,7 +89,8 @@ namespace NoteTrackingSystem
             this.gbxUpdate.Controls.Add(this.tbxNameUpdate);
             this.gbxUpdate.Controls.Add(this.btnUpdate);
             this.gbxUpdate.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.gbxUpdate.Location = new System.Drawing.Point(551, 238);
+            this.gbxUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.gbxUpdate.Location = new System.Drawing.Point(553, 254);
             this.gbxUpdate.Name = "gbxUpdate";
             this.gbxUpdate.Size = new System.Drawing.Size(490, 249);
             this.gbxUpdate.TabIndex = 22;
@@ -111,6 +99,7 @@ namespace NoteTrackingSystem
             // 
             // tbxMusicUpdate
             // 
+            this.tbxMusicUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxMusicUpdate.Location = new System.Drawing.Point(222, 158);
             this.tbxMusicUpdate.Name = "tbxMusicUpdate";
             this.tbxMusicUpdate.Size = new System.Drawing.Size(157, 21);
@@ -119,6 +108,7 @@ namespace NoteTrackingSystem
             // lblPhysical2
             // 
             this.lblPhysical2.AutoSize = true;
+            this.lblPhysical2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblPhysical2.Location = new System.Drawing.Point(67, 130);
             this.lblPhysical2.Name = "lblPhysical2";
             this.lblPhysical2.Size = new System.Drawing.Size(111, 15);
@@ -127,6 +117,7 @@ namespace NoteTrackingSystem
             // 
             // tbxPhysicalUpdate
             // 
+            this.tbxPhysicalUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxPhysicalUpdate.Location = new System.Drawing.Point(222, 127);
             this.tbxPhysicalUpdate.Name = "tbxPhysicalUpdate";
             this.tbxPhysicalUpdate.Size = new System.Drawing.Size(157, 21);
@@ -135,6 +126,7 @@ namespace NoteTrackingSystem
             // lblMusic2
             // 
             this.lblMusic2.AutoSize = true;
+            this.lblMusic2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblMusic2.Location = new System.Drawing.Point(67, 161);
             this.lblMusic2.Name = "lblMusic2";
             this.lblMusic2.Size = new System.Drawing.Size(39, 15);
@@ -144,6 +136,7 @@ namespace NoteTrackingSystem
             // lblName2
             // 
             this.lblName2.AutoSize = true;
+            this.lblName2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblName2.Location = new System.Drawing.Point(67, 33);
             this.lblName2.Name = "lblName2";
             this.lblName2.Size = new System.Drawing.Size(140, 15);
@@ -152,6 +145,7 @@ namespace NoteTrackingSystem
             // 
             // tbxTurkUpdate
             // 
+            this.tbxTurkUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxTurkUpdate.Location = new System.Drawing.Point(222, 93);
             this.tbxTurkUpdate.Name = "tbxTurkUpdate";
             this.tbxTurkUpdate.Size = new System.Drawing.Size(157, 21);
@@ -160,6 +154,7 @@ namespace NoteTrackingSystem
             // lblMath2
             // 
             this.lblMath2.AutoSize = true;
+            this.lblMath2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblMath2.Location = new System.Drawing.Point(67, 65);
             this.lblMath2.Name = "lblMath2";
             this.lblMath2.Size = new System.Drawing.Size(77, 15);
@@ -168,6 +163,7 @@ namespace NoteTrackingSystem
             // 
             // tbxMathUpdate
             // 
+            this.tbxMathUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxMathUpdate.Location = new System.Drawing.Point(222, 62);
             this.tbxMathUpdate.Name = "tbxMathUpdate";
             this.tbxMathUpdate.Size = new System.Drawing.Size(157, 21);
@@ -176,6 +172,7 @@ namespace NoteTrackingSystem
             // lblTurk2
             // 
             this.lblTurk2.AutoSize = true;
+            this.lblTurk2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblTurk2.Location = new System.Drawing.Point(67, 96);
             this.lblTurk2.Name = "lblTurk2";
             this.lblTurk2.Size = new System.Drawing.Size(48, 15);
@@ -184,6 +181,7 @@ namespace NoteTrackingSystem
             // 
             // tbxNameUpdate
             // 
+            this.tbxNameUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxNameUpdate.Location = new System.Drawing.Point(222, 30);
             this.tbxNameUpdate.Name = "tbxNameUpdate";
             this.tbxNameUpdate.Size = new System.Drawing.Size(157, 21);
@@ -191,16 +189,19 @@ namespace NoteTrackingSystem
             // 
             // btnUpdate
             // 
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnUpdate.Location = new System.Drawing.Point(238, 200);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(125, 23);
             this.btnUpdate.TabIndex = 7;
             this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // gbxAdd
             // 
+            this.gbxAdd.BackColor = System.Drawing.Color.White;
             this.gbxAdd.Controls.Add(this.tbxMusicAdd);
             this.gbxAdd.Controls.Add(this.lblPhysical1);
             this.gbxAdd.Controls.Add(this.tbxPhysicalAdd);
@@ -213,7 +214,8 @@ namespace NoteTrackingSystem
             this.gbxAdd.Controls.Add(this.lblTurk1);
             this.gbxAdd.Controls.Add(this.tbxNameAdd);
             this.gbxAdd.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.gbxAdd.Location = new System.Drawing.Point(12, 238);
+            this.gbxAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.gbxAdd.Location = new System.Drawing.Point(14, 254);
             this.gbxAdd.Name = "gbxAdd";
             this.gbxAdd.Size = new System.Drawing.Size(533, 249);
             this.gbxAdd.TabIndex = 21;
@@ -222,6 +224,7 @@ namespace NoteTrackingSystem
             // 
             // tbxMusicAdd
             // 
+            this.tbxMusicAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxMusicAdd.Location = new System.Drawing.Point(191, 161);
             this.tbxMusicAdd.Name = "tbxMusicAdd";
             this.tbxMusicAdd.Size = new System.Drawing.Size(157, 21);
@@ -230,6 +233,7 @@ namespace NoteTrackingSystem
             // lblPhysical1
             // 
             this.lblPhysical1.AutoSize = true;
+            this.lblPhysical1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblPhysical1.Location = new System.Drawing.Point(36, 133);
             this.lblPhysical1.Name = "lblPhysical1";
             this.lblPhysical1.Size = new System.Drawing.Size(111, 15);
@@ -238,6 +242,7 @@ namespace NoteTrackingSystem
             // 
             // tbxPhysicalAdd
             // 
+            this.tbxPhysicalAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxPhysicalAdd.Location = new System.Drawing.Point(191, 130);
             this.tbxPhysicalAdd.Name = "tbxPhysicalAdd";
             this.tbxPhysicalAdd.Size = new System.Drawing.Size(157, 21);
@@ -246,6 +251,7 @@ namespace NoteTrackingSystem
             // lblMusic1
             // 
             this.lblMusic1.AutoSize = true;
+            this.lblMusic1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblMusic1.Location = new System.Drawing.Point(36, 164);
             this.lblMusic1.Name = "lblMusic1";
             this.lblMusic1.Size = new System.Drawing.Size(39, 15);
@@ -254,17 +260,20 @@ namespace NoteTrackingSystem
             // 
             // btnAdd
             // 
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnAdd.Location = new System.Drawing.Point(204, 200);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(125, 23);
             this.btnAdd.TabIndex = 7;
             this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lblName1
             // 
             this.lblName1.AutoSize = true;
+            this.lblName1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblName1.Location = new System.Drawing.Point(36, 36);
             this.lblName1.Name = "lblName1";
             this.lblName1.Size = new System.Drawing.Size(140, 15);
@@ -273,6 +282,7 @@ namespace NoteTrackingSystem
             // 
             // tbxTurkAdd
             // 
+            this.tbxTurkAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxTurkAdd.Location = new System.Drawing.Point(191, 96);
             this.tbxTurkAdd.Name = "tbxTurkAdd";
             this.tbxTurkAdd.Size = new System.Drawing.Size(157, 21);
@@ -281,6 +291,7 @@ namespace NoteTrackingSystem
             // lblMath1
             // 
             this.lblMath1.AutoSize = true;
+            this.lblMath1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblMath1.Location = new System.Drawing.Point(36, 68);
             this.lblMath1.Name = "lblMath1";
             this.lblMath1.Size = new System.Drawing.Size(77, 15);
@@ -289,6 +300,7 @@ namespace NoteTrackingSystem
             // 
             // tbxMathAdd
             // 
+            this.tbxMathAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxMathAdd.Location = new System.Drawing.Point(191, 65);
             this.tbxMathAdd.Name = "tbxMathAdd";
             this.tbxMathAdd.Size = new System.Drawing.Size(157, 21);
@@ -297,6 +309,7 @@ namespace NoteTrackingSystem
             // lblTurk1
             // 
             this.lblTurk1.AutoSize = true;
+            this.lblTurk1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblTurk1.Location = new System.Drawing.Point(36, 99);
             this.lblTurk1.Name = "lblTurk1";
             this.lblTurk1.Size = new System.Drawing.Size(48, 15);
@@ -305,6 +318,7 @@ namespace NoteTrackingSystem
             // 
             // tbxNameAdd
             // 
+            this.tbxNameAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.tbxNameAdd.Location = new System.Drawing.Point(191, 33);
             this.tbxNameAdd.Name = "tbxNameAdd";
             this.tbxNameAdd.Size = new System.Drawing.Size(157, 21);
@@ -313,20 +327,32 @@ namespace NoteTrackingSystem
             // dgwNotes
             // 
             this.dgwNotes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgwNotes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.dgwNotes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwNotes.Location = new System.Drawing.Point(12, 64);
+            this.dgwNotes.Location = new System.Drawing.Point(14, 80);
             this.dgwNotes.Name = "dgwNotes";
             this.dgwNotes.Size = new System.Drawing.Size(1029, 154);
             this.dgwNotes.TabIndex = 20;
             this.dgwNotes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwNotes_CellClick);
             // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.lblName.Location = new System.Drawing.Point(12, 36);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(230, 24);
+            this.lblName.TabIndex = 24;
+            this.lblName.Text = "Note Tracking System";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1064, 510);
-            this.Controls.Add(this.lblSearch);
-            this.Controls.Add(this.tbxSearch);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.gbxUpdate);
             this.Controls.Add(this.gbxAdd);
@@ -345,9 +371,6 @@ namespace NoteTrackingSystem
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblSearch;
-        private System.Windows.Forms.TextBox tbxSearch;
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.GroupBox gbxUpdate;
         private System.Windows.Forms.Button btnUpdate;
@@ -374,6 +397,7 @@ namespace NoteTrackingSystem
         private System.Windows.Forms.TextBox tbxMathUpdate;
         private System.Windows.Forms.Label lblTurk2;
         private System.Windows.Forms.TextBox tbxNameUpdate;
+        private System.Windows.Forms.Label lblName;
     }
 }
 

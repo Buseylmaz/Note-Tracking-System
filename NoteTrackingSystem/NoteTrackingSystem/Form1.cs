@@ -88,5 +88,7 @@ namespace NoteTrackingSystem
             DatabaseListing();
             MessageBox.Show("Deleted!");
         }
+
+   
     }
 }
