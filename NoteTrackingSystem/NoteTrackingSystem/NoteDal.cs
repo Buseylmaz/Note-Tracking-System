@@ -89,5 +89,20 @@ namespace NoteTrackingSystem
             _connection.Close();
 
         }
+
+
+        //Delete
+        public void Delete(int studentId)
+        {
+            ConnectionControl();
+
+            SqlCommand command = new SqlCommand("Delete from Notes where StudentID=@studentID", _connection);
+
+            command.Parameters.AddWithValue("@StudentID", studentId);
+
+            command.ExecuteNonQuery();
+            _connection.Close();
+
+        }
     }
 }

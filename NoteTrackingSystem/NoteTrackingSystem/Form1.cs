@@ -77,5 +77,16 @@ namespace NoteTrackingSystem
             DatabaseListing();
             MessageBox.Show("Update!");
         }
+
+
+        //Delete
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            int studentId = Convert.ToInt32(dgwNotes.CurrentRow.Cells[0].Value);
+            _noteDal.Delete(studentId);
+
+            DatabaseListing();
+            MessageBox.Show("Deleted!");
+        }
     }
 }
