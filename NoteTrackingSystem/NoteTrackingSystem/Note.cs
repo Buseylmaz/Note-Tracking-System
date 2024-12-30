@@ -8,7 +8,7 @@ namespace NoteTrackingSystem
 {
     public class Note
     {
-        //veri tabanında ki özellikleri bu class içinde yazarız
+        //we write the properties in the database in this class
         public int StudentID { get; set; }
         public string StudentNameSurname { get; set; }
         public int Mathematics { get; set; }

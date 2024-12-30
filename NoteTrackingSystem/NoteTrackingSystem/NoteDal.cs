@@ -5,7 +5,7 @@ using System.Data;
 
 namespace NoteTrackingSystem
 {
-    //veri çekme listelem ekleme ve silme işlemleri için yapılacak yer
+    // data extraction list, collection, update and deletion operations are performed in this class.
     public class NoteDal
     {
         SqlConnection _connection = new SqlConnection(@"server=(localdb)\MSSQLLocalDB;initial catalog=Notes;integrated security=true;");
@@ -19,7 +19,7 @@ namespace NoteTrackingSystem
 
         }
 
-        //LİSTELEME
+        //List
         public List<Note> GetAll()
         {
             ConnectionControl();
@@ -35,10 +35,10 @@ namespace NoteTrackingSystem
                 Note note = new Note
                 {
                     StudentID = Convert.ToInt32(reader["StudentID"]),
-                    StudentNameSurname = reader["Student Name Surname"].ToString(),
+                    StudentNameSurname = reader["StudentNameSurname"].ToString(),
                     Mathematics = Convert.ToInt32(reader["Mathematics"]),
                     Turkish = Convert.ToInt32(reader["Turkish"]),
-                    PhysicalEducation = Convert.ToInt32(reader["Physical Education"]),
+                    PhysicalEducation = Convert.ToInt32(reader["PhysicalEducation"]),
                     Music = Convert.ToInt32(reader["Music"])
                 };
 
@@ -51,7 +51,7 @@ namespace NoteTrackingSystem
         }
 
 
-        //Ekleme
+        //Added
         public void Add(Note note)
         {
             ConnectionControl();
@@ -63,6 +63,27 @@ namespace NoteTrackingSystem
             command.Parameters.AddWithValue("@turkish", note.Turkish);
             command.Parameters.AddWithValue("@physicalEducation", note.PhysicalEducation);
             command.Parameters.AddWithValue("@music", note.Music);
+
+            command.ExecuteNonQuery();
+            _connection.Close();
+
+        }
+
+
+        //Update
+        public void Update(Note note)
+        {
+            ConnectionControl();
+
+            SqlCommand command = new SqlCommand("Update Notes set StudentNameSurname=@studentNameSurname,Mathematics=@mathematics,Turkish=@turkish,PhysicalEducation=@physicalEducation,Music=@music where StudentID=@studentID", _connection);
+
+
+            command.Parameters.AddWithValue("@studentNameSurname", note.StudentNameSurname);
+            command.Parameters.AddWithValue("@mathematics", note.Mathematics);
+            command.Parameters.AddWithValue("@turkish", note.Turkish);
+            command.Parameters.AddWithValue("@physicalEducation", note.PhysicalEducation);
+            command.Parameters.AddWithValue("@music", note.Music);
+            command.Parameters.AddWithValue("@studentID", note.StudentID);
 
             command.ExecuteNonQuery();
             _connection.Close();

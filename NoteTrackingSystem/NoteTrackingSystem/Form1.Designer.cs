@@ -33,29 +33,29 @@ namespace NoteTrackingSystem
             this.tbxSearch = new System.Windows.Forms.TextBox();
             this.btnRemove = new System.Windows.Forms.Button();
             this.gbxUpdate = new System.Windows.Forms.GroupBox();
-            this.tbxMusic2 = new System.Windows.Forms.TextBox();
+            this.tbxMusicUpdate = new System.Windows.Forms.TextBox();
             this.lblPhysical2 = new System.Windows.Forms.Label();
-            this.tbxPhysical2 = new System.Windows.Forms.TextBox();
+            this.tbxPhysicalUpdate = new System.Windows.Forms.TextBox();
             this.lblMusic2 = new System.Windows.Forms.Label();
             this.lblName2 = new System.Windows.Forms.Label();
-            this.tbxTurk2 = new System.Windows.Forms.TextBox();
+            this.tbxTurkUpdate = new System.Windows.Forms.TextBox();
             this.lblMath2 = new System.Windows.Forms.Label();
-            this.tbxMath2 = new System.Windows.Forms.TextBox();
+            this.tbxMathUpdate = new System.Windows.Forms.TextBox();
             this.lblTurk2 = new System.Windows.Forms.Label();
-            this.tbxName2 = new System.Windows.Forms.TextBox();
+            this.tbxNameUpdate = new System.Windows.Forms.TextBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.gbxAdd = new System.Windows.Forms.GroupBox();
-            this.tbxMusic1 = new System.Windows.Forms.TextBox();
+            this.tbxMusicAdd = new System.Windows.Forms.TextBox();
             this.lblPhysical1 = new System.Windows.Forms.Label();
-            this.tbxPhysical1 = new System.Windows.Forms.TextBox();
+            this.tbxPhysicalAdd = new System.Windows.Forms.TextBox();
             this.lblMusic1 = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
             this.lblName1 = new System.Windows.Forms.Label();
-            this.tbxTurk1 = new System.Windows.Forms.TextBox();
+            this.tbxTurkAdd = new System.Windows.Forms.TextBox();
             this.lblMath1 = new System.Windows.Forms.Label();
-            this.tbxMath1 = new System.Windows.Forms.TextBox();
+            this.tbxMathAdd = new System.Windows.Forms.TextBox();
             this.lblTurk1 = new System.Windows.Forms.Label();
-            this.tbxName1 = new System.Windows.Forms.TextBox();
+            this.tbxNameAdd = new System.Windows.Forms.TextBox();
             this.dgwNotes = new System.Windows.Forms.DataGridView();
             this.gbxUpdate.SuspendLayout();
             this.gbxAdd.SuspendLayout();
@@ -89,16 +89,16 @@ namespace NoteTrackingSystem
             // 
             // gbxUpdate
             // 
-            this.gbxUpdate.Controls.Add(this.tbxMusic2);
+            this.gbxUpdate.Controls.Add(this.tbxMusicUpdate);
             this.gbxUpdate.Controls.Add(this.lblPhysical2);
-            this.gbxUpdate.Controls.Add(this.tbxPhysical2);
+            this.gbxUpdate.Controls.Add(this.tbxPhysicalUpdate);
             this.gbxUpdate.Controls.Add(this.lblMusic2);
             this.gbxUpdate.Controls.Add(this.lblName2);
-            this.gbxUpdate.Controls.Add(this.tbxTurk2);
+            this.gbxUpdate.Controls.Add(this.tbxTurkUpdate);
             this.gbxUpdate.Controls.Add(this.lblMath2);
-            this.gbxUpdate.Controls.Add(this.tbxMath2);
+            this.gbxUpdate.Controls.Add(this.tbxMathUpdate);
             this.gbxUpdate.Controls.Add(this.lblTurk2);
-            this.gbxUpdate.Controls.Add(this.tbxName2);
+            this.gbxUpdate.Controls.Add(this.tbxNameUpdate);
             this.gbxUpdate.Controls.Add(this.btnUpdate);
             this.gbxUpdate.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.gbxUpdate.Location = new System.Drawing.Point(551, 238);
@@ -108,12 +108,12 @@ namespace NoteTrackingSystem
             this.gbxUpdate.TabStop = false;
             this.gbxUpdate.Text = "Update a Note";
             // 
-            // tbxMusic2
+            // tbxMusicUpdate
             // 
-            this.tbxMusic2.Location = new System.Drawing.Point(222, 158);
-            this.tbxMusic2.Name = "tbxMusic2";
-            this.tbxMusic2.Size = new System.Drawing.Size(157, 21);
-            this.tbxMusic2.TabIndex = 25;
+            this.tbxMusicUpdate.Location = new System.Drawing.Point(222, 158);
+            this.tbxMusicUpdate.Name = "tbxMusicUpdate";
+            this.tbxMusicUpdate.Size = new System.Drawing.Size(157, 21);
+            this.tbxMusicUpdate.TabIndex = 25;
             // 
             // lblPhysical2
             // 
@@ -124,12 +124,12 @@ namespace NoteTrackingSystem
             this.lblPhysical2.TabIndex = 22;
             this.lblPhysical2.Text = "Physical Education";
             // 
-            // tbxPhysical2
+            // tbxPhysicalUpdate
             // 
-            this.tbxPhysical2.Location = new System.Drawing.Point(222, 127);
-            this.tbxPhysical2.Name = "tbxPhysical2";
-            this.tbxPhysical2.Size = new System.Drawing.Size(157, 21);
-            this.tbxPhysical2.TabIndex = 24;
+            this.tbxPhysicalUpdate.Location = new System.Drawing.Point(222, 127);
+            this.tbxPhysicalUpdate.Name = "tbxPhysicalUpdate";
+            this.tbxPhysicalUpdate.Size = new System.Drawing.Size(157, 21);
+            this.tbxPhysicalUpdate.TabIndex = 24;
             // 
             // lblMusic2
             // 
@@ -149,12 +149,12 @@ namespace NoteTrackingSystem
             this.lblName2.TabIndex = 16;
             this.lblName2.Text = "Student Name Surname";
             // 
-            // tbxTurk2
+            // tbxTurkUpdate
             // 
-            this.tbxTurk2.Location = new System.Drawing.Point(222, 93);
-            this.tbxTurk2.Name = "tbxTurk2";
-            this.tbxTurk2.Size = new System.Drawing.Size(157, 21);
-            this.tbxTurk2.TabIndex = 21;
+            this.tbxTurkUpdate.Location = new System.Drawing.Point(222, 93);
+            this.tbxTurkUpdate.Name = "tbxTurkUpdate";
+            this.tbxTurkUpdate.Size = new System.Drawing.Size(157, 21);
+            this.tbxTurkUpdate.TabIndex = 21;
             // 
             // lblMath2
             // 
@@ -165,12 +165,12 @@ namespace NoteTrackingSystem
             this.lblMath2.TabIndex = 17;
             this.lblMath2.Text = "Mathematics";
             // 
-            // tbxMath2
+            // tbxMathUpdate
             // 
-            this.tbxMath2.Location = new System.Drawing.Point(222, 62);
-            this.tbxMath2.Name = "tbxMath2";
-            this.tbxMath2.Size = new System.Drawing.Size(157, 21);
-            this.tbxMath2.TabIndex = 20;
+            this.tbxMathUpdate.Location = new System.Drawing.Point(222, 62);
+            this.tbxMathUpdate.Name = "tbxMathUpdate";
+            this.tbxMathUpdate.Size = new System.Drawing.Size(157, 21);
+            this.tbxMathUpdate.TabIndex = 20;
             // 
             // lblTurk2
             // 
@@ -181,12 +181,12 @@ namespace NoteTrackingSystem
             this.lblTurk2.TabIndex = 18;
             this.lblTurk2.Text = "Turkish";
             // 
-            // tbxName2
+            // tbxNameUpdate
             // 
-            this.tbxName2.Location = new System.Drawing.Point(222, 30);
-            this.tbxName2.Name = "tbxName2";
-            this.tbxName2.Size = new System.Drawing.Size(157, 21);
-            this.tbxName2.TabIndex = 19;
+            this.tbxNameUpdate.Location = new System.Drawing.Point(222, 30);
+            this.tbxNameUpdate.Name = "tbxNameUpdate";
+            this.tbxNameUpdate.Size = new System.Drawing.Size(157, 21);
+            this.tbxNameUpdate.TabIndex = 19;
             // 
             // btnUpdate
             // 
@@ -196,20 +196,21 @@ namespace NoteTrackingSystem
             this.btnUpdate.TabIndex = 7;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // gbxAdd
             // 
-            this.gbxAdd.Controls.Add(this.tbxMusic1);
+            this.gbxAdd.Controls.Add(this.tbxMusicAdd);
             this.gbxAdd.Controls.Add(this.lblPhysical1);
-            this.gbxAdd.Controls.Add(this.tbxPhysical1);
+            this.gbxAdd.Controls.Add(this.tbxPhysicalAdd);
             this.gbxAdd.Controls.Add(this.lblMusic1);
             this.gbxAdd.Controls.Add(this.btnAdd);
             this.gbxAdd.Controls.Add(this.lblName1);
-            this.gbxAdd.Controls.Add(this.tbxTurk1);
+            this.gbxAdd.Controls.Add(this.tbxTurkAdd);
             this.gbxAdd.Controls.Add(this.lblMath1);
-            this.gbxAdd.Controls.Add(this.tbxMath1);
+            this.gbxAdd.Controls.Add(this.tbxMathAdd);
             this.gbxAdd.Controls.Add(this.lblTurk1);
-            this.gbxAdd.Controls.Add(this.tbxName1);
+            this.gbxAdd.Controls.Add(this.tbxNameAdd);
             this.gbxAdd.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.gbxAdd.Location = new System.Drawing.Point(12, 238);
             this.gbxAdd.Name = "gbxAdd";
@@ -218,12 +219,12 @@ namespace NoteTrackingSystem
             this.gbxAdd.TabStop = false;
             this.gbxAdd.Text = "Add a Note";
             // 
-            // tbxMusic1
+            // tbxMusicAdd
             // 
-            this.tbxMusic1.Location = new System.Drawing.Point(191, 161);
-            this.tbxMusic1.Name = "tbxMusic1";
-            this.tbxMusic1.Size = new System.Drawing.Size(157, 21);
-            this.tbxMusic1.TabIndex = 15;
+            this.tbxMusicAdd.Location = new System.Drawing.Point(191, 161);
+            this.tbxMusicAdd.Name = "tbxMusicAdd";
+            this.tbxMusicAdd.Size = new System.Drawing.Size(157, 21);
+            this.tbxMusicAdd.TabIndex = 15;
             // 
             // lblPhysical1
             // 
@@ -234,12 +235,12 @@ namespace NoteTrackingSystem
             this.lblPhysical1.TabIndex = 9;
             this.lblPhysical1.Text = "Physical Education";
             // 
-            // tbxPhysical1
+            // tbxPhysicalAdd
             // 
-            this.tbxPhysical1.Location = new System.Drawing.Point(191, 130);
-            this.tbxPhysical1.Name = "tbxPhysical1";
-            this.tbxPhysical1.Size = new System.Drawing.Size(157, 21);
-            this.tbxPhysical1.TabIndex = 13;
+            this.tbxPhysicalAdd.Location = new System.Drawing.Point(191, 130);
+            this.tbxPhysicalAdd.Name = "tbxPhysicalAdd";
+            this.tbxPhysicalAdd.Size = new System.Drawing.Size(157, 21);
+            this.tbxPhysicalAdd.TabIndex = 13;
             // 
             // lblMusic1
             // 
@@ -269,12 +270,12 @@ namespace NoteTrackingSystem
             this.lblName1.TabIndex = 1;
             this.lblName1.Text = "Student Name Surname";
             // 
-            // tbxTurk1
+            // tbxTurkAdd
             // 
-            this.tbxTurk1.Location = new System.Drawing.Point(191, 96);
-            this.tbxTurk1.Name = "tbxTurk1";
-            this.tbxTurk1.Size = new System.Drawing.Size(157, 21);
-            this.tbxTurk1.TabIndex = 6;
+            this.tbxTurkAdd.Location = new System.Drawing.Point(191, 96);
+            this.tbxTurkAdd.Name = "tbxTurkAdd";
+            this.tbxTurkAdd.Size = new System.Drawing.Size(157, 21);
+            this.tbxTurkAdd.TabIndex = 6;
             // 
             // lblMath1
             // 
@@ -285,12 +286,12 @@ namespace NoteTrackingSystem
             this.lblMath1.TabIndex = 2;
             this.lblMath1.Text = "Mathematics";
             // 
-            // tbxMath1
+            // tbxMathAdd
             // 
-            this.tbxMath1.Location = new System.Drawing.Point(191, 65);
-            this.tbxMath1.Name = "tbxMath1";
-            this.tbxMath1.Size = new System.Drawing.Size(157, 21);
-            this.tbxMath1.TabIndex = 5;
+            this.tbxMathAdd.Location = new System.Drawing.Point(191, 65);
+            this.tbxMathAdd.Name = "tbxMathAdd";
+            this.tbxMathAdd.Size = new System.Drawing.Size(157, 21);
+            this.tbxMathAdd.TabIndex = 5;
             // 
             // lblTurk1
             // 
@@ -301,12 +302,12 @@ namespace NoteTrackingSystem
             this.lblTurk1.TabIndex = 3;
             this.lblTurk1.Text = "Turkish";
             // 
-            // tbxName1
+            // tbxNameAdd
             // 
-            this.tbxName1.Location = new System.Drawing.Point(191, 33);
-            this.tbxName1.Name = "tbxName1";
-            this.tbxName1.Size = new System.Drawing.Size(157, 21);
-            this.tbxName1.TabIndex = 4;
+            this.tbxNameAdd.Location = new System.Drawing.Point(191, 33);
+            this.tbxNameAdd.Name = "tbxNameAdd";
+            this.tbxNameAdd.Size = new System.Drawing.Size(157, 21);
+            this.tbxNameAdd.TabIndex = 4;
             // 
             // dgwNotes
             // 
@@ -316,6 +317,7 @@ namespace NoteTrackingSystem
             this.dgwNotes.Name = "dgwNotes";
             this.dgwNotes.Size = new System.Drawing.Size(1029, 154);
             this.dgwNotes.TabIndex = 20;
+            this.dgwNotes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwNotes_CellClick);
             // 
             // Form1
             // 
@@ -351,26 +353,26 @@ namespace NoteTrackingSystem
         private System.Windows.Forms.GroupBox gbxAdd;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label lblName1;
-        private System.Windows.Forms.TextBox tbxTurk1;
+        private System.Windows.Forms.TextBox tbxTurkAdd;
         private System.Windows.Forms.Label lblMath1;
-        private System.Windows.Forms.TextBox tbxMath1;
+        private System.Windows.Forms.TextBox tbxMathAdd;
         private System.Windows.Forms.Label lblTurk1;
-        private System.Windows.Forms.TextBox tbxName1;
+        private System.Windows.Forms.TextBox tbxNameAdd;
         private System.Windows.Forms.DataGridView dgwNotes;
-        private System.Windows.Forms.TextBox tbxMusic1;
+        private System.Windows.Forms.TextBox tbxMusicAdd;
         private System.Windows.Forms.Label lblPhysical1;
-        private System.Windows.Forms.TextBox tbxPhysical1;
+        private System.Windows.Forms.TextBox tbxPhysicalAdd;
         private System.Windows.Forms.Label lblMusic1;
-        private System.Windows.Forms.TextBox tbxMusic2;
+        private System.Windows.Forms.TextBox tbxMusicUpdate;
         private System.Windows.Forms.Label lblPhysical2;
-        private System.Windows.Forms.TextBox tbxPhysical2;
+        private System.Windows.Forms.TextBox tbxPhysicalUpdate;
         private System.Windows.Forms.Label lblMusic2;
         private System.Windows.Forms.Label lblName2;
-        private System.Windows.Forms.TextBox tbxTurk2;
+        private System.Windows.Forms.TextBox tbxTurkUpdate;
         private System.Windows.Forms.Label lblMath2;
-        private System.Windows.Forms.TextBox tbxMath2;
+        private System.Windows.Forms.TextBox tbxMathUpdate;
         private System.Windows.Forms.Label lblTurk2;
-        private System.Windows.Forms.TextBox tbxName2;
+        private System.Windows.Forms.TextBox tbxNameUpdate;
     }
 }
 
