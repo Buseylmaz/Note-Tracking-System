@@ -16,5 +16,11 @@ namespace NoteTrackingSystem
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            NoteDal noteDal = new NoteDal();
+            dgwNotes.DataSource = noteDal.GetAll();
+        }
     }
 }

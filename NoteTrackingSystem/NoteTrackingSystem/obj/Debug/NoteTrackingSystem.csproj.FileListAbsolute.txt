@@ -1,0 +1,10 @@
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\bin\Debug\NoteTrackingSystem.exe.config
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\bin\Debug\NoteTrackingSystem.exe
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\bin\Debug\NoteTrackingSystem.pdb
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\obj\Debug\NoteTrackingSystem.csproj.AssemblyReference.cache
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\obj\Debug\NoteTrackingSystem.Form1.resources
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\obj\Debug\NoteTrackingSystem.Properties.Resources.resources
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\obj\Debug\NoteTrackingSystem.csproj.GenerateResource.cache
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\obj\Debug\NoteTrackingSystem.csproj.CoreCompileInputs.cache
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\obj\Debug\NoteTrackingSystem.exe
+C:\Users\bsylm\Desktop\Note-Tracking-System\NoteTrackingSystem\NoteTrackingSystem\obj\Debug\NoteTrackingSystem.pdb
